@@ -8,4 +8,4 @@ router.post('/', createProduct)
       .get('/:id', fetchProductById)
       .patch('/:id', updateProduct)
 
-exports.router = router; 
+exports.router = router;
